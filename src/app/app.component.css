@@ -1,0 +1,21 @@
+.wrapper {
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+img {
+    max-width: 100%;
+}
